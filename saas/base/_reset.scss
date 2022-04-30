@@ -1,0 +1,23 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list {
+    color: var(--accent-txt-cl);
+    list-style-type: none;
+    text-decoration: none;
+}

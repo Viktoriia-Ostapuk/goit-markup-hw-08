@@ -1,0 +1,44 @@
+/*FOOTER*/
+.footer {
+    background-color: var(--primary-dark-bg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer__flex {
+    display: flex;
+    align-items: baseline;
+}
+
+
+
+.logo__white {
+    color: var(--light-txt-cl);
+}
+
+.address {
+    padding-top: 20px;
+    font-style: normal;
+}
+
+.address__details {
+    list-style-type: none;
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+
+
+.address__item--white {
+    color: var(--light-txt-cl);
+    text-decoration: none;
+}
+
+.address__item {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}

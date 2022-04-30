@@ -1,0 +1,27 @@
+/*VARIABLES*/
+@import "./utils/variables";
+
+/*UTILS*/
+@import "./utils/utils";
+
+/*BASE STYLE*/
+@import "./base/base";
+
+
+/*COMPONENTS*/
+@import "./components/container";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/modal";
+@import "./components/checkbox";
+@import "./components/advantages";
+@import "./components/activity";
+@import "./components/team";
+@import "./components/socials";
+@import "./components/clients";
+@import "./components/footer";
+
+@import "./components/join";
+@import "./components/subscribe";
+@import "./components/portfolio";
+@import "./components/overlay";

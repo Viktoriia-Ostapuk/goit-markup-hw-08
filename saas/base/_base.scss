@@ -1,0 +1,23 @@
+@import "./reset";
+
+body {
+    font-family:var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--txt-cl);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+textarea {
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.section {
+    padding: 94px 0;
+}
