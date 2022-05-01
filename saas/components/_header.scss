@@ -1,17 +1,55 @@
 .header {
+    padding-top: 13px;
+    padding-bottom: 13px;
     background-color: var(--light-txt-cl);
     border-bottom: 1px solid #ECECEC;
+@media screen and  (min-width:768px)  {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
 }
 
-.header__container {
-    display: flex;
-    align-items: center;
-}
+ .header__container .nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     min-height: 80px;
 
-.nav {
-    display: flex;
-    align-items: center;
-}
+ }
+
+// .header__container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+
+//     @media screen and (min-width: 768px) {
+    
+    
+//         background-color: #fff;
+    
+//         &__container {
+//             padding-top: 0;
+//             padding-bottom: 0;
+//         }
+// }
+
+// .nav {justify-content: space-between;
+//     @media screen and (max-width: 767px) {
+//         display: none;
+//     }
+// }
+    
+    // @media screen and (min-width:768px) and (max-width:1199px) {
+    //     display: flex;
+    //     align-items: center;
+    // }
+
+
+  
 
 .logo {
     text-decoration: none;
@@ -26,6 +64,7 @@
 .logo__black {
     color: var(--title-cl);
 }
+
 
 
 .nav__link {
@@ -67,12 +106,14 @@
 
 
 .nav__list {
-    display: flex;
-    list-style-type: none;
-    margin-left: 93px;
-& .nav__item:not(:last-child) {
-    margin-right: 50px;
-}
+    display: none;
+//     display: none;
+//     display: flex;
+//     list-style-type: none;
+//     margin-left: 93px;
+// & .nav__item:not(:last-child) {
+//     margin-right: 50px;
+// }
 }
 
 
@@ -96,21 +137,22 @@
 
 
 .contacts__link {
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--txt-cl);
-    text-decoration: none;
-    fill: var(--txt-cl);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:hover,
-&:focus {
-    color: var(--accent-bg-cl);
-    fill: var(--accent-bg-cl);
-}
+    display: none;
+//     display: flex;
+//     align-items: center;
+//     font-weight: 500;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     color: var(--txt-cl);
+//     text-decoration: none;
+//     fill: var(--txt-cl);
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// &:hover,
+// &:focus {
+//     color: var(--accent-bg-cl);
+//     fill: var(--accent-bg-cl);
+// }
 }
 
 
@@ -126,5 +168,4 @@
     fill: #2196f3;
 }
 }
-
 
